@@ -1,0 +1,59 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-shadow: 0;
+}
+
+.containerr{
+
+     display: grid;
+     grid-template-columns: repeat(12,1fr);
+     grid-template-rows: auto;
+     background-image: url(../pic1.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     width: 100%;
+   
+}
+
+.inner-con{
+
+  grid-column: 1/13;
+  overflow: auto;
+  background-color: rgba(106, 10, 161, 0.637);
+  color: white !important;
+ 
+}
+
+
+header{
+
+     grid-column: 1/13;
+     text-align: center;
+     padding: 8px;
+}
+
+.form-con{
+
+      grid-column: 1/13;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.form-con form {
+
+      width: 50%;
+      height: auto;
+      background-color: rgba(33, 17, 48, 0.76);
+      padding: 15px;
+      margin-bottom: 2em;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.623);
+
+}
+
+.bb button{
+     color: white;
+     background-color: green;
+     width: 100%;
+}
